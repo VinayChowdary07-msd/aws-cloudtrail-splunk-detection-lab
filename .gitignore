@@ -1,0 +1,26 @@
+# Credentials: never commit these
+*.csv
+*.pem
+*.key
+*.env
+.env*
+credentials
+*accessKeys*
+rootkey*
+*secret*
+!scripts/scan-for-secrets.sh
+
+# Unredacted evidence and working files
+originals/
+unredacted/
+raw-screenshots/
+Screenshot_*.png
+*_png.png
+
+# Personal job-search text (keep out of the public repo)
+resume-and-linkedin.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
